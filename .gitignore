@@ -1,0 +1,24 @@
+# 默认忽略所有文件
+*
+
+# 允许进入子目录
+!*/
+
+# 只保留代码、说明和配置
+!*.py
+!*.R
+!*.r
+!*.sh
+!*.md
+!*.toml
+!*.yaml
+!*.yml
+!requirements*.txt
+!Dockerfile
+!Makefile
+!.gitignore
+
+# 始终忽略缓存和敏感配置
+__pycache__/
+*.pyc
+.env
