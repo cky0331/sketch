@@ -38,7 +38,7 @@ for _name in (
 import numpy as np
 import pandas as pd
 
-import case1_journal_pipeline.case1_core as core
+import simulation_code.case1_core as core
 
 
 FULL_METHODS = ("Cov-ER", "Corr-ER", "MA-RE")
